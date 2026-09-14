@@ -11,6 +11,12 @@ for (const char of input) {
 
 console.log(`Floor Santa gets off on (that naughty boy!): ${floor}`);
 
+const alternativeFloor = input.split('').reduce((floor, step) => {
+  return step === '(' ? floor + 1 : floor - 1
+}, 0);
+
+console.log(`Floor Santa gets off on (that naughty boy!): ${alternativeFloor}`);
+
 floor = 0;
 let basementStep = 1;
 
