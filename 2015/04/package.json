@@ -1,0 +1,13 @@
+{
+  "name": "04",
+  "version": "1.0.0",
+  "description": "Solution to 2015/04",
+  "type": "commonjs",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "js-md5": "^0.9.2"
+  }
+}
